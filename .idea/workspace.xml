@@ -32,6 +32,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583327436285</updated>
+<<<<<<< HEAD
+=======
+      <workItem from="1584026076752" duration="161000" />
+      <workItem from="1584035616679" duration="2408000" />
+>>>>>>> 1a30487... file handler
     </task>
     <servers />
   </component>
@@ -44,6 +49,33 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="380" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1583327881631" />
+<<<<<<< HEAD
+=======
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1584038138051">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1584038138051" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1584038138050">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1584038138050" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1584038138049">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1584038138049" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1584038138051">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1584038138051" />
+    <state x="178" y="73" key="Maven.ArtifactSearchDialog" timestamp="1584037672609">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="178" y="73" key="Maven.ArtifactSearchDialog/0.23.1280.777@0.23.1280.777" timestamp="1584037672609" />
+    <state x="269" y="112" width="800" height="598" key="NewModule_or_Project.wizard" timestamp="1583335056355">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="269" y="112" width="800" height="598" key="NewModule_or_Project.wizard/0.23.1280.777@0.23.1280.777" timestamp="1583335056355" />
+>>>>>>> 1a30487... file handler
     <state x="128" y="23" key="SettingsEditor" timestamp="1583327849717">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
