@@ -1,138 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9469e40e-1475-4a8e-827b-b93be557e2b3" name="Default Changelist" comment="" />
+    <list default="true" id="37684639-a0de-4d6f-a65d-265b2c69253b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1YfItObhphKmigPKFfotkkuhCoy" />
-  <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9469e40e-1475-4a8e-827b-b93be557e2b3" name="Default Changelist" comment="" />
-      <created>1583327436285</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1583327436285</updated>
-<<<<<<< HEAD
-=======
-      <workItem from="1584026076752" duration="161000" />
-      <workItem from="1584035616679" duration="2408000" />
->>>>>>> 1a30487... file handler
-    </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="77" width="822" height="669" key="#Project_Structure" timestamp="1583328050429">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1584044584115">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="77" width="822" height="669" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1583328050429" />
-    <state x="380" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583327881631">
+    <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1584044584115" />
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1584038978356">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="380" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777@0.23.1280.777" timestamp="1583327881631" />
-<<<<<<< HEAD
-=======
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1584038138051">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1584038978356" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1584038978355">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1584038138051" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1584038138050">
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1584038978355" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1584038978351">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1584038138050" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1584038138049">
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1584038978351" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1584038978356">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1584038138049" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1584038138051">
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1584038978356" />
+    <state x="243" y="34" width="870" height="598" key="NewModule_or_Project.wizard" timestamp="1584042248248">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1584038138051" />
-    <state x="178" y="73" key="Maven.ArtifactSearchDialog" timestamp="1584037672609">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="178" y="73" key="Maven.ArtifactSearchDialog/0.23.1280.777@0.23.1280.777" timestamp="1584037672609" />
-    <state x="269" y="112" width="800" height="598" key="NewModule_or_Project.wizard" timestamp="1583335056355">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="269" y="112" width="800" height="598" key="NewModule_or_Project.wizard/0.23.1280.777@0.23.1280.777" timestamp="1583335056355" />
->>>>>>> 1a30487... file handler
-    <state x="128" y="23" key="SettingsEditor" timestamp="1583327849717">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="128" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1583327849717" />
-    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1583327445401">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1583327445401" />
-  </component>
-  <component name="simpleUML.UMLToolWindowPlugin">
-    <General>
-      <option name="birdViewUpdateDelay" value="2000" />
-      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
-    </General>
-    <Classdiagram>
-      <option name="diagramTitleFont" value="SansSerif,1,12" />
-      <option name="diagramFont" value="SansSerif,0,10" />
-      <option name="defaultFieldsExpanded" value="false" />
-      <option name="defaultContructorsExpanded" value="false" />
-      <option name="defaultMethodsExpanded" value="false" />
-      <option name="showParameters" value="true" />
-      <option name="showTooltip" value="true" />
-      <option name="showReturnValues" value="true" />
-      <option name="longModifier" value="true" />
-      <option name="implementsBehaviour" value="1" />
-      <option name="extendsBehaviour" value="1" />
-      <option name="compartmentBehaviour" value="1" />
-      <option name="interfaceBackgroundColor" value="-6494306" />
-      <option name="abstractClassBackgroundColor" value="-1580132" />
-      <option name="classBackgroundColor" value="-6508057" />
-      <option name="diagramBackgroundColor" value="-1" />
-      <option name="useAntialiasedConnectors" value="true" />
-      <option name="quickSourceLinkColor" value="-16776961" />
-      <option name="quickDiagramLinkColor" value="-8454144" />
-      <option name="drawDecorations" value="false" />
-      <option name="hideFieldList" value="" />
-      <option name="showFieldList" value="" />
-      <option name="hideConstructorList" value="" />
-      <option name="showConstructorList" value="" />
-      <option name="hideMethodList" value="" />
-      <option name="showMethodList" value="" />
-      <option name="minimumFigureSize" value="0,0" />
-    </Classdiagram>
-    <Dependencydiagram>
-      <option name="diagramTitleFont" value="SansSerif,1,12" />
-      <option name="diagramFont" value="SansSerif,0,10" />
-      <option name="diagramBackgroundColor" value="-1" />
-      <option name="useAntialiasedConnectors" value="true" />
-      <option name="packageNameCompressionLevel" value="0" />
-    </Dependencydiagram>
-    <Packagediagram>
-      <option name="diagramTitleFont" value="SansSerif,0,12" />
-      <option name="diagramFont" value="SansSerif,0,10" />
-      <option name="packageBackgroundColor" value="-4144960" />
-      <option name="diagramBackgroundColor" value="-1" />
-      <option name="useAntialiasedConnectors" value="true" />
-      <option name="packageNameCompressionLevel" value="2" />
-    </Packagediagram>
+    <state x="243" y="34" width="870" height="598" key="NewModule_or_Project.wizard/0.23.1280.777@0.23.1280.777" timestamp="1584042248248" />
   </component>
 </project>
