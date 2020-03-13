@@ -7,12 +7,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Driver">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="detectors.Driver" />
       <module name="Maven" />
@@ -26,9 +36,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="workshop3-workshop3.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/workshop3-workshop3.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Driver" />
+        <item itemvalue="JAR Application.workshop3-workshop3.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -36,26 +51,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="77" key="#Project_Structure" timestamp="1584064529283">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1584064529283" />
     <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1584044584115">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="453" y="134" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1584044584115" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1584063940890">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1584086956525">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1584063940890" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1584063940889">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1584086956525" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1584086956520">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1584063940889" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1584063940888">
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1584086956520" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1584086956518">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1584063940888" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1584063940889">
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1584086956517" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1584086956521">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1584063940889" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1584086956521" />
     <state x="178" y="73" key="Maven.ArtifactSearchDialog" timestamp="1584060919798">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

@@ -49,8 +49,13 @@ public class Driver {
             UselessControlFlowDetector concreteFlow = new UselessControlFlowDetector();
             List<Breakpoints> containerFlow = new ArrayList<Breakpoints>();
             concreteFlow.visit(cu, containerFlow);
+
+            RecursionDetector concreteRec = new RecursionDetector();
+            List<Breakpoints> containerRec = new ArrayList<Breakpoints>();
+            concreteRec.visit(cu, containerRec);
         //stdout
-            printOut(containerFlow,"Useless Control Flows:");
+            printOut(containerFlow,"Useless Control Flow:");
+            printOut(containerRec,"Polymorphic Recursion:");
 
         }
     }
