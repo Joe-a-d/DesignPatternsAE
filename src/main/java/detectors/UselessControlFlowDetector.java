@@ -64,7 +64,22 @@ public class UselessControlFlowDetector extends VoidVisitorAdapter<List<Breakpoi
     private List<Breakpoints>  container;
 
 
+// getter Visitors
+    @Override
+    public void visit(MethodDeclaration n, List<Breakpoints> container) {
+        this.methodName = n.getNameAsString() ;
+        if(n.getBody().isEmpty()){
+            return;
+        }
+        super.visit(n,container);
+    }
 
+    @Override
+    public void visit(ClassOrInterfaceDeclaration n, List<Breakpoints> container){
+        this.className = n.getNameAsString();
+        this.container = container;
+        super.visit(n,container);
+    }
 
 
     @Override
