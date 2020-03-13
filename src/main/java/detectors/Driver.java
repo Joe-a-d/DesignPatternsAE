@@ -1,10 +1,11 @@
 package detectors;
 
 import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.StaticJavaParser;
+import com.github.javaparser.JavaParser;
 import javax.swing.JFileChooser;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +15,8 @@ import java.util.List;
 
 public class Driver {
 
-    static void printOut(List<Breakpoints> concreteVisitor){
+    static void printOut(List<Breakpoints> concreteVisitor, String s){
+        System.out.println(s);
         for(Breakpoints bp : concreteVisitor){
             System.out.println(bp);
         }
@@ -37,13 +39,18 @@ public class Driver {
     public static void main(String[] args) throws FileNotFoundException {
 
         //get file
-            CompilationUnit cu = StaticJavaParser.parse(getFile());
+        CompilationUnit cu = null;
+        try {
+           cu = JavaParser.parse(getFile());
+        } catch(IOException e){
+            System.out.println("Parsing Error" + e.getMessage());
+        }
         //instantiate concreteVisitors
             UselessControlFlowDetector concreteFlow = new UselessControlFlowDetector();
             List<Breakpoints> containerFlow = new ArrayList<Breakpoints>();
             concreteFlow.visit(cu, containerFlow);
         //stdout
-            printOut(containerFlow);
+            printOut(containerFlow,"Useless Control Flows:");
 
         }
     }

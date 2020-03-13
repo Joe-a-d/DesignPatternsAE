@@ -4,6 +4,7 @@ import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration;
 import com.github.javaparser.ast.body.MethodDeclaration;
 import com.github.javaparser.ast.stmt.BlockStmt;
+import com.github.javaparser.ast.stmt.SwitchEntryStmt;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 
 import java.util.List;
@@ -52,7 +53,7 @@ JavaParser Visited CH2 ; page19
  */
 
 /*
-As per the lecturer's instructions, we'll only be looking at empty control flow statements.
+As per the lecturer's instructions, we'll only be looking at empty control flow statements
 CASES:
 - BlockStmt.isEmpty && isNot(MethodDeclaration, ClassorInterfaceDeclaration)
 */
@@ -64,11 +65,12 @@ public class UselessControlFlowDetector extends VoidVisitorAdapter<List<Breakpoi
     private List<Breakpoints>  container;
 
 
-// getter Visitors
+//  Visitors
     @Override
     public void visit(MethodDeclaration n, List<Breakpoints> container) {
         this.methodName = n.getNameAsString() ;
-        if(n.getBody().isEmpty()){
+        if(n.getBody().get().isEmpty()){
+            store(n);
             return;
         }
         super.visit(n,container);
@@ -91,7 +93,16 @@ public class UselessControlFlowDetector extends VoidVisitorAdapter<List<Breakpoi
         super.visit(n, container);
     }
 
+    @Override
+    public void visit(SwitchEntryStmt n, List<Breakpoints> container){
+        if(n.isEmpty()){
+            store(n);
+            return;
+        }
+        super.visit(n,container);
+    }
 
+    //helper
     public void store(Node n) {
         this.startline = n.getRange().get().begin.line;
         this.endline = n.getRange().get().end.line;
