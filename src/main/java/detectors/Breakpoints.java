@@ -19,11 +19,10 @@ public class Breakpoints {
 
     @Override
     public String toString() {
-        return "Breakpoints{" +
-                "className='" + className +
+        return  "className='" + className +
                 ", methodName='" + methodName +
                 ", startline=" + startline +
-                ", endline=" + endline +
-                '}';
+                ", endline=" + endline
+                ;
     }
 }
